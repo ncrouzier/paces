@@ -1,0 +1,61 @@
+BODY, HTML {
+height: 100%;
+}
+
+BODY {
+color: #222;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 13px;
+line-height: 21px;
+margin: 0;
+padding: 0;
+}
+
+
+.fixed-table-container {
+box-sizing: border-box;
+height: 100%;
+overflow-y: scroll;
+-webkit-overflow-scrolling: touch;
+}
+
+.fixed-table-container TABLE {
+border-collapse: collapse;
+width: 100%;
+}
+
+.fixed-table-container TH, .fixed-table-container TD {
+border-bottom: 1px solid #FFF;
+border-right: 1px solid #FFF;
+padding: 7px 5px 6px 5px;
+text-align: center;
+vertical-align: middle;
+white-space: nowrap !important;
+}
+
+.fixed-table-container TH {
+background: #BBDEFB;
+line-height: 16px;
+}
+
+.fixed-table-container TH.dark {
+background: #90CAF9;
+}
+
+.fixed-table-container TH.small {
+font-size: 9px;
+}
+
+
+.fixed-table-container TD:first-child {
+background: #BBDEFB;
+}
+
+
+TD.hover, TR.hover, TD.hoverrow {
+background: #FFF9C4;
+}
+
+TD.hovercell, TH.hovercell {
+background: #90CAF9;
+}
